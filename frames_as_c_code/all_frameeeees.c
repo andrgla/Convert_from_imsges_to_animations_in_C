@@ -12,9 +12,9 @@ typedef struct {
     uint8_t brightness_levels[ANIMATION_MAX_ACTIVE_PIXELS];
     uint8_t frame_number; // Index of this frame in an animation
     uint8_t num_pixels;
-} AnimationFrame;
+} animation_frame;
 
-AnimationFrame const animation_frames[22] = {
+animation_frame const animation_frames[22] = {
     {
         .frame_number = 0,
         .num_pixels = 198,
