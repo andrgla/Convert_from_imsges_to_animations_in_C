@@ -14,7 +14,7 @@ typedef struct {
     uint8_t num_pixels;
 } AnimationFrame;
 
-AnimationFrame const animation_frames[22] = {
+AnimationFrame const wake_up_blob_animation[22] = {
     {
         .frame_number = 0,
         .num_pixels = 104,
