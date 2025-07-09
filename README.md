@@ -8,7 +8,7 @@ This tool helps you convert PNG images (or a sequence of images) into C structs 
 ### Features
 
 - **Pixelate images** to a fixed grid (default: 18x11).
-- **Batch process** a directory of PNGs into a C array of animation frames.
+- **Batch process** a directory of PNGs, jpgs and jpegs into a C array of animation frames.
 - **Single image** conversion supported.
 - **Outputs C structs** ready for use in microcontroller or embedded projects.
 
